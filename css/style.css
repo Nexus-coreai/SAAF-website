@@ -4518,3 +4518,46 @@ p {
     }
 
 }
+
+
+
+
+@media (max-width: 700px) {
+
+    .about-handwoven-points {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+
+    .about-handwoven-points > div {
+        padding: 0;
+    }
+
+}
+
+/* =====================================================
+   HANDWOVEN — SIDE SPACING FIX
+===================================================== */
+
+.about-handwoven-points {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    margin-top: 55px;
+}
+
+.about-handwoven-points > div {
+    padding: 0 30px;
+}
+
+.about-handwoven-points > div:first-child {
+    padding-left: 0;
+}
+
+.about-handwoven-points > div:last-child {
+    padding-right: 0;
+}
+
+
+
+
