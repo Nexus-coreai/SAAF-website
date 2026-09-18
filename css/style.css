@@ -4520,23 +4520,8 @@ p {
 }
 
 
-
-
-@media (max-width: 700px) {
-
-    .about-handwoven-points {
-        grid-template-columns: 1fr;
-        gap: 28px;
-    }
-
-    .about-handwoven-points > div {
-        padding: 0;
-    }
-
-}
-
 /* =====================================================
-   HANDWOVEN — SIDE SPACING FIX
+   HANDWOVEN POINTS — DESKTOP + MOBILE
 ===================================================== */
 
 .about-handwoven-points {
@@ -4559,5 +4544,49 @@ p {
 }
 
 
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .about-handwoven-points {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .about-handwoven-points > div {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 18px 0;
+        border-right: 0;
+        border-bottom: 1px solid var(--border-dark);
+    }
+
+    .about-handwoven-points > div:first-child,
+    .about-handwoven-points > div:last-child {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-handwoven-points > div:last-child {
+        border-bottom: 0;
+    }
+
+}
 
 
+/* SMALL MOBILE */
+
+@media (max-width: 480px) {
+
+    .about-handwoven-points {
+        margin-top: 35px;
+    }
+
+    .about-handwoven-points > div {
+        padding: 16px 0;
+    }
+
+}
