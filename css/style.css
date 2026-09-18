@@ -4452,3 +4452,69 @@ p {
         grid-template-columns: 1fr;
     }
 }
+
+/* =====================================================
+   FLOATING WHATSAPP BUTTON
+===================================================== */
+
+.floating-whatsapp {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #25D366;
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    text-decoration: none;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.18);
+
+    z-index: 9999;
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.floating-whatsapp svg {
+    width: 30px;
+    height: 30px;
+
+    fill: currentColor;
+}
+
+.floating-whatsapp:hover {
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.24);
+}
+
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+    .floating-whatsapp {
+        right: 16px;
+        bottom: 18px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+    .floating-whatsapp svg {
+        width: 27px;
+        height: 27px;
+    }
+
+}
