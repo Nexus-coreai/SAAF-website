@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
        FLOATING WHATSAPP BUTTON
     ===================================================== */
 
-    const whatsappNumber = "+919442369945";
+    const whatsappNumber = "+918098764397";
     // Enter your WhatsApp number above.
     // Example: 919876543210
     // Do NOT use +, spaces or hyphens.
