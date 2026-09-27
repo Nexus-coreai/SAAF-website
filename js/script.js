@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     const whatsappMessage =
-        "Hello, I’m interested in working with SAAF Leather Products.";
+        "Hello, I’m interested in discussing a B2B manufacturing or sourcing partnership with SAAF Leather Products.";
 
 
     const whatsappButton = document.createElement("a");
